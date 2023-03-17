@@ -1,6 +1,21 @@
 body {
-      margin: 1em;
-      background: darkred;
+      margin: 10;
+      background: skyblue;
       text-align: center;
 
 }
+nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 10px; /* add some space between the links */
+    }
+    
+    nav li:last-child {
+      margin-right: 0; /* remove the right margin from the last link */
+    }
+    

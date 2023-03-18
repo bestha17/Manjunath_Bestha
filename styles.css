@@ -120,8 +120,8 @@ button a {
       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
       letter-spacing: .15em; /* Adjust as needed */
       animation: 
-        typing 12s steps(12, end),
-        blink-caret 1s step-end infinite;
+        typing 12s steps(60, end),
+        blink-caret 12s step-end infinite;
     }
     
     /* The typing effect */
